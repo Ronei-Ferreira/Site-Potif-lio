@@ -4,31 +4,117 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ronei | Portifólio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="#inicio">Início</a></li>
-            <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#projetos">Projetos</a></li>
-            <li><a href="#contatos">Contato</a></li>    
+    <nav class="navegacao">
+        <ul class="menu">
+            <li><a href="#inicio" class="menu-link">Início</a></li>
+            <li><a href="#sobre" class="menu-link">Sobre</a></li>
+            <li><a href="#projetos" class="menu-link">Projetos</a></li>
+            <li><a href="#contatos" class="menu-link">Contato</a></li>    
         </ul>
     </nav>
 
-<main id="inicio" class="cabeçalho">
-    <div>
+<main id="inicio" class="cabecalho">
         <img src="./Ronei 2.png" alt="Foto de perfil de Ronei" class="foto-perfil">
     <h1>Ronei Inocêncio Ferreira</h1>
-    <p>Desenvolvedor Front End</p>
-
-    </div>
+    <p class="cabecalho-sub-titulo">Desenvolvedor Front End</p>
 </main>
 
 <section id="sobre" class="sobre">
     <h2 class="sobre-titulo">Sobre mim</h2>
     <div class="sobre-caixa">
-        <p class="sobre-paragrafo">Sou um desenvolvedor front-end apaixonado por criar experiências digitais envolventes e intuitivas. Com uma sólida formação em HTML, CSS e JavaScript, estou sempre buscando aprender novas tecnologias e aprimorar minhas habilidades para entregar projetos de alta qualidade.</p>
+        <p class="sobre-paragrafo
+        ">Sou desenvolvedor front-end especializado na criação de experiências digitais modernas, funcionais e visualmente impactantes. Com sólida expertise em HTML, CSS e JavaScript, desenvolvo interfaces responsivas, intuitivas e alinhadas às melhores práticas de usabilidade e performance.
+
+Movido pela inovação e pelo aprendizado contínuo, estou sempre em busca de novas tecnologias e soluções que agreguem valor aos projetos e proporcionem a melhor experiência ao usuário. Meu objetivo é transformar ideias em produtos digitais eficientes, elegantes e de alta qualidade, unindo criatividade, tecnologia e atenção aos detalhes em cada projeto desenvolvido.</p>
+ </div>
+</section>
+
+<section id="projetos" class="projetos">
+<h2 class="projetos-titulo"> Meus Projetos</h2>
+<div class="projetos-caixa">
+
+    <div class="projeto-card">
+    <a href="https://ronei-ferreira.github.io/App-Lista-de-compras-React-JavaScript/" target="_blank"><img src="./App Lista de Compras.png" alt="Projeto 1" class="projeto-imagem"></a>
+        <div class="caixa-textos-projeto">
+            <h3 class="info-projetos">App de Lista de Compras</h3>
+            <p class="paragrafo-projetos">Aplicativo moderno com interface interativa para lista de compras e controle de Supermercado.</p>
+        </div>
     </div>
+
+    <div class="projeto-card">
+    <a href="https://ronei-ferreira.github.io/Aplica-o-Animada-html-css-javascript/" target="_blank"><img src="./Site aplicação Animada.png" alt="Projeto 2" class="projeto-imagem"></a>
+        <div class="caixa-textos-projeto">
+            <h3 class="info-projetos">Página Site de Aplicação Animada</h3>
+            <p class="paragrafo-projetos">Uma página interativa com Frutas e Bebidas.</p>
+        </div>
+    </div>
+
+    <div class="projeto-card">
+    <a href="https://ronei-ferreira.github.io/Projeto-Slider-Css-Html-JavaScript/" target="_blank"><img src="./Site Sliders Paises.png" alt="Projeto 3" class="projeto-imagem"></a>
+        <div class="caixa-textos-projeto">
+            <h3 class="info-projetos">Página Site de Viagens</h3>
+            <p class="paragrafo-projetos">Uma página interativa com os países e pontos turísticos mais belos do mundo.</p>
+        </div>
+    </div>  
+
+    <div class="projeto-card">
+   <a href="https://ronei-ferreira.github.io/Projeto-Cordel/" target="_blank"><img src="./Site Projeto Cordel.png" alt="Projeto 4" class="projeto-imagem"></img></a>
+        <div class="caixa-textos-projeto">
+                <h3 class="info-projetos">Página Site de Cordel</h3>         
+            <p class="paragrafo-projetos">Uma página interativa de projeto cordel.</p>
+        </div>
+    </div>  
+
+    <div class="projeto-card">
+    <a href="https://ronei-ferreira.github.io/site-android/" target="_blank"><img src="./Site Android.png" alt="Projeto 5" class="projeto-imagem"></a>
+        <div class="caixa-textos-projeto">
+            <h3 class="info-projetos">Página Site Android</h3>
+            <p class="paragrafo-projetos">Uma página interativa de sobre a história do Android.</p>
+        </div>
+    </div>  
+
+    <div class="projeto-card">
+    <a href="https://ronei-ferreira.github.io/Projeto-React-Lista-de-Tarefas/" target="_blank"><img src="./Site projeto to do.png" alt="Projeto 6" class="projeto-imagem"></a>
+        <div class="caixa-textos-projeto">
+            <h3 class="info-projetos">App de Lista de Tarefas To-Do</h3>
+            <p class="paragrafo-projetos">Uma página interativa de lista de tarefas.</p>
+        </div>
+    </div>  
+
+    <div class="projeto-card">
+    <a href="https://ronei-ferreira.github.io/projeto-rede-social/" target="_blank"><img src="./Site projeto Rede Social.png" alt="Projeto 7" class="projeto-imagem"></a>
+        <div class="caixa-textos-projeto">
+            <h3 class="info-projetos">Site de Lista de Redes Sociais</h3>
+            <p class="paragrafo-projetos">Uma página interativa com minhas Redes Sociais.</p>
+        </div>
+    </div>  
+
+    <div class="projeto-card">
+    <a href="https://ronei-ferreira.github.io/Projeto-Tela-Login-Responsiva/" target="_blank"><img src="./Tela login responsiva.png" alt="Projeto 8 " class="projeto-imagem"></a>
+        <div class="caixa-textos-projeto">
+            <h3 class="info-projetos">Tela Login Responsiva</h3>
+            <p class="paragrafo-projetos">Uma Tela de Login responsiva para diferentes dispositivos.</p>
+        </div>
+    </div> 
+
+</section>
+
+
+<section id="contatos" class="contatos">
+    <h2 class="contatos-titulo">Contatos</h2>
+    <form class="formulario-contatos" id="formulario">
+        <div class="nome-form">
+            <input placeholder="Nome" class="campo-form">
+        </div>
+
+        <div class="grupo-form">
+            <textarea class="text-form" placeholder="Digite sua Mensagem"></textarea>
+        </div>
+    </form>
+</section>
 
 
 
